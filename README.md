@@ -1,1 +1,1 @@
-# seed.groovy
+# seedpipe
