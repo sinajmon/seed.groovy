@@ -2,7 +2,7 @@ multibranchPipelineJob('configuration-code-dev') {
   branchSources {
       git {
           id = 'develop'
-          remote('https://github.com/sinajmon/develop.git')
+          remote('https://github.com/sinajmon/static-webhosting-s3-demo.git')
       }
   }
 }
