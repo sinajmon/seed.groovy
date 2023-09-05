@@ -1,7 +1,7 @@
-multibranchPipelineJob('configuration-webcode-s3') {
+multibranchPipelineJob('configuration-webapp-s3') {
   branchSources {
       git {
-          id = 'develop'
+          id = 'static-webhosting-s3-demo'
           remote('https://github.com/sinajmon/static-webhosting-s3-demo.git')
       }
   }
