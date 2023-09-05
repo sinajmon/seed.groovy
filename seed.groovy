@@ -1,4 +1,4 @@
-multibranchPipelineJob('configuration-code-dev') {
+multibranchPipelineJob('configuration-webcode-s3') {
   branchSources {
       git {
           id = 'develop'
